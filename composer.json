@@ -1,5 +1,5 @@
 {
-  "name": "jafo232/ambientapi",
+  "name": "kjk2010/ambientapi",
   "description": "A package for ambient api",
   "license": "MIT",
   "type": "library",
@@ -12,7 +12,7 @@
 
   "autoload": {
     "psr-0": {
-      "jafo232\\ambientapi": "src/"
+      "kjk2010\\ambientapi": "src/"
     }
   },
   "minimum-stability": "dev",
