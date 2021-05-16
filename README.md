@@ -5,15 +5,15 @@ Forked from jafo232/ambientapi
 
 **Install with composer:**
 
-composer require kjk2010/ambientapi
+composer require jafo232/ambientapi
 
 **Add to your providers in config/app.php:**
 
-kjk2010\ambientapi\AmbientApiServiceProvider::class,
+jafo232\ambientapi\AmbientApiServiceProvider::class,
 
 **Add to your aliases:**
 
-'Ambient' => kjk2010\ambientapi\AmbientApiFacade::class,
+'Ambient' => jafo232\ambientapi\AmbientApiFacade::class,
 
 **Publish the config file:**
 
