@@ -1,17 +1,19 @@
 # Ambient API
 Laravel Package For Accessing Ambient API.  Currently their API is in beta, see this Facebook group for more information: https://www.facebook.com/search/top/?q=ambient%20weather%20network%20api
 
+Forked from jafo232/ambientapi
+
 **Install with composer:**
 
-composer require jafo232/ambientapi
+composer require kjk2010/ambientapi
 
 **Add to your providers in config/app.php:**
 
-jafo232\ambientapi\AmbientApiServiceProvider::class,
+kjk2010\ambientapi\AmbientApiServiceProvider::class,
 
 **Add to your aliases:**
 
-'Ambient' => jafo232\ambientapi\AmbientApiFacade::class,
+'Ambient' => kjk2010\ambientapi\AmbientApiFacade::class,
 
 **Publish the config file:**
 
